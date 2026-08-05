@@ -24,7 +24,7 @@ export const categories: Category[] = [
     title: "TypeScript",
     description: "Static typing, generics, and advanced language features.",
     icon: Braces,
-    topicCount: 31,
+    topicCount: 12,
   },
   {
     id: "javascript",

@@ -67,63 +67,63 @@ This document tracks the examples that will eventually be available inside the a
 
 ## TypeScript Fundamentals
 
-- [ ] Primitive types
+- [x] Primitive types
 - [ ] Arrays
 - [ ] Tuples
-- [ ] Object types
-- [ ] Interfaces
-- [ ] Type aliases
-- [ ] Interface versus type
+- [x] Object types
+- [x] Interfaces
+- [x] Type aliases
+- [x] Interface versus type
 - [ ] Optional properties
 - [ ] Read-only properties
-- [ ] Function parameter types
-- [ ] Function return types
-- [ ] Function types
-- [ ] Union types
+- [x] Function parameter types
+- [x] Function return types
+- [x] Function types
+- [x] Union types
 - [ ] Intersection types
-- [ ] Literal types
+- [x] Literal types
 - [ ] Type assertions
-- [ ] Type inference
-- [ ] `any`
-- [ ] `unknown`
-- [ ] `never`
-- [ ] `void`
+- [x] Type inference
+- [x] `any`
+- [x] `unknown`
+- [x] `never`
+- [x] `void`
 - [ ] `null` and `undefined`
 
 ## Advanced TypeScript
 
-- [ ] Generics
+- [x] Generics
 - [ ] Generic interfaces
-- [ ] Generic constraints
+- [x] Generic constraints
 - [ ] Generic React components
-- [ ] `keyof`
-- [ ] `typeof`
-- [ ] Indexed access types
-- [ ] Type guards
-- [ ] Custom type predicates
-- [ ] Narrowing
-- [ ] Discriminated unions
-- [ ] Exhaustive switch statements
-- [ ] Mapped types
-- [ ] Conditional types
-- [ ] `infer`
+- [x] `keyof`
+- [x] `typeof`
+- [x] Indexed access types
+- [x] Type guards
+- [x] Custom type predicates
+- [x] Narrowing
+- [x] Discriminated unions
+- [x] Exhaustive switch statements
+- [x] Mapped types
+- [x] Conditional types
+- [x] `infer`
 - [ ] Template literal types
 - [ ] Function overloads
 
 ## TypeScript Utility Types
 
-- [ ] `Partial`
-- [ ] `Required`
+- [x] `Partial`
+- [x] `Required`
 - [ ] `Readonly`
-- [ ] `Pick`
-- [ ] `Omit`
-- [ ] `Record`
+- [x] `Pick`
+- [x] `Omit`
+- [x] `Record`
 - [ ] `Exclude`
 - [ ] `Extract`
 - [ ] `NonNullable`
-- [ ] `ReturnType`
+- [x] `ReturnType`
 - [ ] `Parameters`
-- [ ] `Awaited`
+- [x] `Awaited`
 
 ## JavaScript Fundamentals
 

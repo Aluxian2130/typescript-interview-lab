@@ -60,10 +60,13 @@ The immediate goal is to build a clean application shell with navigation and the
 - Desktop sidebar integrated into `MainLayout`
 - Temporary category routes created
 - GitHub Pages deployment configured
+- Category cards navigate to category routes
+- Reusable topic-rendering component created
+- TypeScript reference section created
 
 ### Current Task
 
-Make category cards navigate to their corresponding category routes.
+Expand the TypeScript reference section and begin adding React examples.
 
 ---
 
@@ -309,13 +312,11 @@ GitHub Issues are not being used for this project.
 
 ## Near-Term Roadmap
 
-1. Make category cards navigate to category routes.
+1. Expand the TypeScript reference section.
 2. Add the application header.
-3. Build the reusable topic-rendering model.
-4. Begin the React examples section.
-5. Add TypeScript examples.
-6. Add JavaScript and asynchronous programming examples.
-7. Add Node.js, SQL, and Palantir Foundry material.
+3. Begin the React examples section.
+4. Add JavaScript and asynchronous programming examples.
+5. Add Node.js, SQL, and Palantir Foundry material.
 
 ---
 

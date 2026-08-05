@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "@/layout/MainLayout";
 import CategoryPlaceholder from "@/pages/CategoryPlaceholder/CategoryPlaceholder";
 import Home from "@/pages/Home/Home";
+import TypeScript from "@/pages/TypeScript/TypeScript";
 
 const router = createBrowserRouter(
   [
@@ -20,7 +21,7 @@ const router = createBrowserRouter(
         },
         {
           path: "typescript",
-          element: <CategoryPlaceholder title="TypeScript" />,
+          element: <TypeScript />,
         },
         {
           path: "javascript",
