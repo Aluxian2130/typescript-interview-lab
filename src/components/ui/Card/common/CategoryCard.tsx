@@ -6,7 +6,7 @@ interface CategoryCardProps {
   onClick?: (id: string) => void;
 }
 
-export default function CategoryCard({ category, onClick }: CategoryCardProps) {
+export default function CategoryCard({ category }: CategoryCardProps) {
   const Icon = category.icon;
 
   return (
