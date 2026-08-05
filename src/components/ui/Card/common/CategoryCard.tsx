@@ -3,7 +3,6 @@ import type { Category } from "@/shared/types/Category";
 
 interface CategoryCardProps {
   category: Category;
-  onClick?: (id: string) => void;
 }
 
 export default function CategoryCard({ category }: CategoryCardProps) {

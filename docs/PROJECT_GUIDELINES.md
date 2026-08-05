@@ -56,27 +56,14 @@ The immediate goal is to build a clean application shell with navigation and the
 - Category dashboard rendered using `.map()`
 - Lucide icons added to category data
 - Grouped navigation data created
+- Grouped desktop sidebar created
+- Desktop sidebar integrated into `MainLayout`
+- Temporary category routes created
+- GitHub Pages deployment configured
 
 ### Current Task
 
-Build the desktop sidebar.
-
-The sidebar should contain:
-
-- `Sidebar`
-- `SidebarGroup`
-- `SidebarItem`
-
-It should use:
-
-- `navigationGroups`
-- `NavigationGroup`
-- `NavigationItem`
-- `NavLink`
-- `IconLabel`
-- `clsx`
-
-After the sidebar is complete, it should be integrated into `MainLayout`.
+Make category cards navigate to their corresponding category routes.
 
 ---
 
@@ -322,16 +309,13 @@ GitHub Issues are not being used for this project.
 
 ## Near-Term Roadmap
 
-1. Finish the grouped desktop sidebar.
-2. Integrate the sidebar into `MainLayout`.
-3. Add temporary routes for each category.
-4. Make category cards navigate to category routes.
-5. Add the application header.
-6. Build the reusable topic-rendering model.
-7. Begin the React examples section.
-8. Add TypeScript examples.
-9. Add JavaScript and asynchronous programming examples.
-10. Add Node.js, SQL, and Palantir Foundry material.
+1. Make category cards navigate to category routes.
+2. Add the application header.
+3. Build the reusable topic-rendering model.
+4. Begin the React examples section.
+5. Add TypeScript examples.
+6. Add JavaScript and asynchronous programming examples.
+7. Add Node.js, SQL, and Palantir Foundry material.
 
 ---
 

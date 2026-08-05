@@ -2,10 +2,6 @@ import CategoryCard from "@/components/ui/Card/common/CategoryCard";
 import { categories } from "@/shared/data/categories";
 
 export default function Home() {
-  const handleCategoryClick = (id: string) => {
-    console.log(`Navigate to: ${id}`);
-  };
-
   return (
     <section className="space-y-8">
       <div>
@@ -19,11 +15,7 @@ export default function Home() {
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {categories.map((category) => (
-          <CategoryCard
-            key={category.id}
-            category={category}
-            onClick={handleCategoryClick}
-          />
+          <CategoryCard key={category.id} category={category} />
         ))}
       </div>
     </section>

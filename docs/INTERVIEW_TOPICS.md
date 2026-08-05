@@ -56,8 +56,8 @@ This document tracks the examples that will eventually be available inside the a
 - [x] Browser router setup
 - [x] Nested layout route
 - [x] `Outlet`
-- [ ] `NavLink`
-- [ ] Active-link styling
+- [x] `NavLink`
+- [x] Active-link styling
 - [ ] `useNavigate`
 - [ ] Route parameters
 - [ ] Dynamic routes
