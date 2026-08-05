@@ -7,30 +7,19 @@ interface CategoryCardProps {
 }
 
 export default function CategoryCard({ category, onClick }: CategoryCardProps) {
+  const Icon = category.icon;
+
   return (
-    <Card
-      className="
-        cursor-pointer
-        transition-all
-        duration-I
-        hover:border-emerald-700
-        hover:-translate-y-1
-        hover:shadow-xl
-      "
-    >
-      <button
-        type="button"
-        className="w-full text-left bg-transparent border-none p-0 text-inherit"
-        onClick={() => onClick?.(category.id)}
-      >
-        <div className="mb-4 text-4xl">{category.icon}</div>
+    <Card variant="interactive">
+      <Icon className="mb-4 h-10 w-10 text-sky-400" />
 
-        <h2 className="text-xl font-semibold">{category.title}</h2>
+      <h2 className="text-xl font-semibold">{category.title}</h2>
 
-        <p className="mt-2 text-sm text-black">{category.description}</p>
+      <p className="mt-2 text-sm text-slate-400">{category.description}</p>
 
-        <p className="mt-6 text-sm text-black">{category.topicCount} Topics</p>
-      </button>
+      <p className="mt-6 text-sm font-medium text-sky-400">
+        {category.topicCount} Topics
+      </p>
     </Card>
   );
 }
