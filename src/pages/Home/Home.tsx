@@ -1,16 +1,31 @@
-import Card from "@/components/ui/Card";
+import CategoryCard from "@/components/ui/Card/common/CategoryCard";
+import { categories } from "@/shared/data/categories";
 
 export default function Home() {
-  return (
-    <Card>
-      <h2 className="text-3xl font-bold">
-        Welcome
-      </h2>
+  const handleCategoryClick = (id: string) => {
+    console.log(`Navigate to: ${id}`);
+  };
 
-      <p className="mt-4 text-slate-400">
-        Your personal React and TypeScript
-        interview preparation lab.
-      </p>
-    </Card>
+  return (
+    <section className="space-y-8">
+      <div>
+        <h1 className="text-4xl font-bold">TypeScript Interview Lab</h1>
+
+        <p className="mt-3 text-black">
+          Interactive interview preparation covering React, TypeScript,
+          JavaScript, Node.js, SQL, Palantir, Algorithms, and System Design.
+        </p>
+      </div>
+
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {categories.map((category) => (
+          <CategoryCard
+            key={category.id}
+            category={category}
+            onClick={handleCategoryClick}
+          />
+        ))}
+      </div>
+    </section>
   );
 }
